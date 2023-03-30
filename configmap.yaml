@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  foo: wtf
+kind: ConfigMap
+metadata:
+  name: example-configmap-1
+  namespace: team-1
