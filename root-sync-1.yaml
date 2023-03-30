@@ -6,7 +6,7 @@ metadata:
   namespace: config-management-system
 spec:
   sourceType: git
-  sourceFormat: hierarchy
+  sourceFormat: unstructured
   git:
     repo: https://github.com/zhongzhoucai/root-source-1.git
     revision: HEAD
