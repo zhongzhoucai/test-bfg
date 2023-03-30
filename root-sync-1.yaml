@@ -1,0 +1,14 @@
+# root-sync.yaml
+apiVersion: configsync.gke.io/v1beta1
+kind: RootSync
+metadata:
+  name: root-sync-1
+  namespace: config-management-system
+spec:
+  sourceType: git
+  sourceFormat: hierarchy
+  git:
+    repo: https://github.com/zhongzhoucai/root-source-1.git
+    revision: HEAD
+    branch: main
+    auth: none
