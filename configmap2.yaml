@@ -1,7 +1,0 @@
-apiVersion: v1
-data:
-  foo-2: bar-root-root-2
-kind: ConfigMap
-metadata:
-  name: example-configmap-1
-  namespace: team-1
